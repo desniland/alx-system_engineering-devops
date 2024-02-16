@@ -63,3 +63,11 @@ Complete the 9 next tasks, getting to 27 total.
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `command_line_for_the_win`
 -   File: `2-next_9_tasks.jpg,2-next_9_tasks.png`
+
+###steps I followed to use the SFTP command-line tool in this project.
+
+-I uploaded Files Within the Sandbox Environment:
+       - I used a cloud storage service as an intermediary:
+       - I uploaded the PNG files from my Screenshots folder to a cloud storage service (Google Drive).
+        - Within the sandbox, I accessed the cloud storage service and downloaded the files to a temporary location.
+        - I then used the provided SFTP client to upload the screenshots files from the temporary location to my project          repository using put commands. 
