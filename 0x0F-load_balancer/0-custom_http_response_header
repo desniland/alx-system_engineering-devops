@@ -2,7 +2,7 @@
 # duplicate web-01 to web-02
 
 # uncomment to see the script run in action
-#set -x
+set -x
 
 # colors
 blue='\e[1;34m'
