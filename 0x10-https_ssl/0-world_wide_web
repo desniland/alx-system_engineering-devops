@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Displays informtation about subdomains.
 
-set -x
+#set -x
 
 # for the checker to work please remove the colors.
 
