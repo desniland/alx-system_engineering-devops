@@ -5,6 +5,7 @@
 ## Postmortem: E-commerce Payment Gateway Outage (2024-06-08)
 
 **Issue Summary:**
+![](https://www.cienotes.com/wp-content/uploads/2019/07/summaryblackboard.jpg)
 
 * Duration: From 1:15 PM(18:15) to 2:45 PM (19:45 ) on June 8th, 2024 (total duration: 1 and a half hours).
 * Impact: Our e-commerce payment gateway experienced a critical outage, preventing users from completing transactions on our website. This affected 100% of users attempting to checkout during the outage window.
@@ -22,6 +23,7 @@ Timeline:
 * 2:45 PM: All systems confirmed operational.
 
 ##Root Cause and Resolution:
+![](https://blog.systemsengineering.com/hs-fs/hubfs/blog-files/Root%20Cause.jpg?width=600&name=Root%20Cause.jpg)
 
 The root cause of the outage was a failing disk on the database server specifically serving the e-commerce payment gateway. This disk failure caused a high volume of connection errors, preventing the gateway from successfully communicating with the database and processing transactions.
 
