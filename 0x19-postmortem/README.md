@@ -4,7 +4,7 @@
 
 **Issue Summary:**
 
-* Duration: From 1:15 PM PST (18:15 UTC) to 2:45 PM PST (19:45 UTC) on June 8th, 2024 (total duration: 1.5 hours).
+* Duration: From 1:15 PM(18:15) to 2:45 PM (19:45 ) on June 8th, 2024 (total duration: 1 and a half hours).
 * Impact: Our e-commerce payment gateway experienced a critical outage, preventing users from completing transactions on our website. This affected 100% of users attempting to checkout during the outage window.
 
 Timeline:
@@ -19,13 +19,13 @@ Timeline:
 * 2:40 PM: Payment processing resumes normal operation.
 * 2:45 PM: All systems confirmed operational.
 
-**Root Cause and Resolution:**
+##Root Cause and Resolution:
 
 The root cause of the outage was a failing disk on the database server specifically serving the e-commerce payment gateway. This disk failure caused a high volume of connection errors, preventing the gateway from successfully communicating with the database and processing transactions.
 
 Resolution involved bringing the failing disk offline and migrating the database to a healthy secondary server. This restored communication between the gateway and the database, allowing transactions to resume normally.
 
-Corrective and Preventative Measures:**
+##Corrective and Preventative Measures:
 
 * Improved Monitoring: Implement more granular monitoring on the database server health, including disk health metrics. This will provide earlier warnings of potential disk failures.
 * Redundancy Review: Review the current redundancy configuration for the database server serving the payment gateway. Consider implementing a RAID configuration or a more robust failover mechanism for the database.
