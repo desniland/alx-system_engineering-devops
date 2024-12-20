@@ -1,5 +1,15 @@
 # 0x13. Firewall 
 
+<p align="center" />
+  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/284/V1HjQ1Y.png" />
+</p>
+
+### Your servers without a firewall...
+
+<p align="center" />
+  <img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/155/holbertonschool-firewall.gif" />
+</p>
+
 
 ## Resource
 

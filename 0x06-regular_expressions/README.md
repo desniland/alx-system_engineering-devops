@@ -1,6 +1,21 @@
-# Regular expression 
+# 0x06. Regular expression 
 
-## Resources
+## Resource
+
+<details>
+<summary>Regular Expression</summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/mkcB0Yk1/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="https://www.regular-expressions.info/">regular-expressions</a></li>
+      <li><a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp">Play with regexp</a></li>
+      <li><a href="https://rubular.com/">Ruby</a></li>
+      <li><a href="https://regex101.com/">PHP/Javascript/Python</a></li>
+  </ul>
+  </li>
+</ul>
+</details>
 
 - [Regular expressions - basics](https://www.slideshare.net/neha_jain/introducing-regular-expressions)
 - [Regular expressions - advanced](https://www.slideshare.net/neha_jain/advanced-regular-expressions-80296518)
@@ -9,150 +24,55 @@
 - [Learn Regular Expressions with simple, interactive exercises](https://regexone.com/)
 
 ## Tasks
-# Simply matching School
 
-- Requirements:
+<details>
+<summary><a href="./0-simply_match_school.rb">0. Simply matching School</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/1zCjqLRw/image.png' border='0' alt='image'/></a>
+</details>
 
-The regular expression must match School
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Example:
+<details>
+<summary><a href="./1-repetition_token_0.rb">1. Repetition Token #0</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/dtgN5CgX/image.png' border='0' alt='image'/></a>
+</details>
 
-sylvain@ubuntu$ ./0-simply_match_school.rb School | cat -e
-School$
-sylvain@ubuntu$ ./0-simply_match_school.rb "Best School" | cat -e
-School$
-sylvain@ubuntu$ ./0-simply_match_school.rb "School Best School" | cat -e
-SchoolSchool$
-sylvain@ubuntu$ ./0-simply_match_school.rb "Grace Hopper" | cat -e
-$
-Repo:
+<details>
+<summary><a href="./2-repetition_token_1.rb">2. Repetition Token #1</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/QMLWH8wv/image.png' border='0' alt='image'/></a>
+</details>
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 0-simply_match_school.rb
+<details>
+<summary><a href="./3-repetition_token_2.rb">3. Repetition Token #2</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/6pZfHmXJ/image.png' border='0' alt='image'/></a>
+</details>
 
-. Repetition Token
+<details>
+<summary><a href="./4-repetition_token_3.rb">4. Repetition Token #3</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/sf92mzKN/image.png' border='0' alt='image'/></a>
+</details>
 
+<details>
+<summary><a href="./5-beginning_and_end.rb">5. Not quite HBTN yet</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/TwdsXrMm/image.png' border='0' alt='image'/></a>
+</details>
 
-Requirements:
+<details>
+<summary><a href="./6-phone_number.rb">6. Call me maybe</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Kz1Hzmjv/image.png' border='0' alt='image'/></a>
+</details>
 
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Repo:
+<details>
+<summary><a href="./7-OMG_WHY_ARE_YOU_SHOUTING.rb">7. OMG WHY ARE YOU SHOUTING?</a></summary><br>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/yYsypVKg/image.png' border='0' alt='image'/></a>
+</details>
 
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 1-repetition_token_0.rb
-
-2. Repetition Token #1
-mandatory
-
-
-Requirements:
-
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 2-repetition_token_1.rb
-
-3. Repetition Token #2
-mandatory
-
-
-Requirements:
-
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 3-repetition_token_2.rb
-
-4. Repetition Token #3
-mandatory
-
-
-Requirements:
-
-Find the regular expression that will match the above cases
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Your regex should not contain square brackets
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 4-repetition_token_3.rb
-
-5. Not quite HBTN yet
-mandatory
-Requirements:
-
-The regular expression must be exactly matching a string that starts with h ends with n and can have any single character in between
-Using the project instructions, create a Ruby script that accepts one argument and pass it to a regular expression matching method
-Example:
-
-sylvain@ubuntu$ ./5-beginning_and_end.rb 'hn' | cat -e
-$
-sylvain@ubuntu$ ./5-beginning_and_end.rb 'hbn' | cat -e
-hbn$
-sylvain@ubuntu$ ./5-beginning_and_end.rb 'hbtn' | cat -e
-$
-sylvain@ubuntu$ ./5-beginning_and_end.rb 'h8n' | cat -e
-h8n$
-sylvain@ubuntu$
-$
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 5-beginning_and_end.rb
-
-6. Call me maybe
-mandatory
-This task is brought to you by a professional advisor Neha Jain, Senior Software Engineer at LinkedIn.
-
-Requirement:
-
-The regular expression must match a 10 digit phone number
-Example:
-
-sylvain@ubuntu$ ./6-phone_number.rb 4155049898 | cat -e
-4155049898$
-sylvain@ubuntu$ ./6-phone_number.rb " 4155049898" | cat -e
-$
-sylvain@ubuntu$ ./6-phone_number.rb "415 504 9898" | cat -e
-$
-sylvain@ubuntu$ ./6-phone_number.rb "415-504-9898" | cat -e
-$
-sylvain@ubuntu$
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 6-phone_number.rb
-
-7. OMG WHY ARE YOU SHOUTING?
-mandatory
-
-
-Requirement:
-
-The regular expression must be only matching: capital letters
-Example:
-
-sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "I realLy hOpe VancouvEr posseSs Yummy Soft vAnilla Dupper Mint Ice Nutella cream" | cat -e
-ILOVESYSADMIN$
-sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "WHAT do you SAY?" | cat -e
-WHATSAY$
-sylvain@ubuntu$ ./7-OMG_WHY_ARE_YOU_SHOUTING.rb "cannot read you" | cat -e
-$
-sylvain@ubuntu$
-Repo:
-
-GitHub repository: alx-system_engineering-devops
-Directory: 0x06-regular_expressions
-File: 7-OMG_WHY_ARE_YOU_SHOUTING.rb
+<details>
+<summary><a href="./100-textme.rb">8. Textme</a></summary><br>
+<a href='https://postimg.cc/3kzNT3Sb' target='_blank'><img src='https://i.postimg.cc/wBjmDvhH/image.png' border='0' alt='image'/></a>
+<ul>
+  <li>Links from screenshot
+  <ul>
+      <li><a href="./text_messages.log">text messages log file</a></li>
+  </ul>
+  </li>
+</ul>
+</details>
